@@ -68,7 +68,7 @@ route 数・route 一覧・var 一覧を `+page.svelte` に literal で持って
 `cljs-edge-bff`。**これは上流から観測できる値**なので ADR に記録した（上流は今日
 NXDOMAIN なので、実際に観測している者は居ない）。
 
-## いま在るもの — 20 ファイル
+## いま在るもの — 21 ファイル
 
 | 面 | ファイル |
 |---|---|
@@ -79,7 +79,7 @@ NXDOMAIN なので、実際に観測している者は居ない）。
 | Worker 設定 | `appview/aidesk-a1d3sk00/wrangler.jsonc` |
 | actor 記述子 | `kotodama.jsonld`（root と appview に**バイト同一の 2 部**。抽出時から） |
 | 設計 | `AGENTS.md` |
-| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` |
+| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `blueprint.edn` |
 | 文書・道具 | `README.md` / `docs/operator-quickstart.md` / `docs/adr/*.edn` / `docs/mcp-router-stub.cljs` |
 
 **production の TypeScript は 0 本、正本言語（`.cljc`/`.cljs`）が 4 本**
